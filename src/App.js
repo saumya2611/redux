@@ -1,8 +1,8 @@
 import logo from "./logo.svg";
 import "./App.css";
+import Todo from "./Component/todo";
 import { Provider } from "react-redux";
 import { store } from "./Redux/store";
-import Todo from "./Component/todo";
 
 function App() {
   return (
